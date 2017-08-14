@@ -22,7 +22,7 @@ for doc in flist[:50000]:
         #temp_dict = {}
         line = docfile.read()
         docfile.close()
-
+        #splitted_line = line.split(',')
         splitted_line = line.split()
         #splitted_line=line.split('-')
 
@@ -70,18 +70,18 @@ for c, d in final_term_words[:50]:
     #print ("{0} : {1}".format(c,d))
 
 
-print ('TOP 25 STOPWORDS with score\n\n')
+print ('TOP 50 STOPWORDS in BAHASA\n\n')
 
 d3={}
 def dict_mul(d1, d2):
     
     for k in d1:
         if k in d2:
-            d3[k] = d1[k] * d2[k]
+            d3[k] = d1[k] * d2[k] *d2[k]
     return d3
 
 dict_fin = dict_mul(term_count, doc_count)
 sorted_dict_fin = sorted(dict_fin.items(), key = itemgetter(1), reverse=True)
 
-for c, d in sorted_dict_fin[:25]:
-    print ("{0} : {1}".format(c,d))
+for c, d in sorted_dict_fin[:60]:
+    print ("{0}".format(c))

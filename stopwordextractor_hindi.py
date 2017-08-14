@@ -6,7 +6,7 @@ words = set()
 
 flist = glob.glob('./new_final_hindi_extracted/*')
 
-for fname in flist[:1000]:
+for fname in flist[:15000]:
     with codecs.open(fname,encoding='utf-8') as tfile:
         line = tfile.read()
         words=words.union(set(line.split()))
@@ -17,7 +17,7 @@ words = sorted(words)
 term_count = {}
 doc_count={}
 
-for doc in flist[:1000]:
+for doc in flist[:15000]:
     with codecs.open(doc, encoding='utf-8') as docfile:
         #temp_dict = {}
         line = docfile.read()
@@ -69,18 +69,18 @@ for c, d in final_term_words[:50]:
     #print ("{0} : {1}".format(c,d))
 
 
-print ('TOP 25 STOPWORDS with score\n\n')
+print ('TOP 50 STOPWORDS IN HINDI\n\n')
 
 d3={}
 def dict_mul(d1, d2):
     
     for k in d1:
         if k in d2:
-            d3[k] = d1[k] * d2[k]
+            d3[k] = d1[k] * d2[k] * d2[k]
     return d3
 
 dict_fin = dict_mul(term_count, doc_count)
 sorted_dict_fin = sorted(dict_fin.items(), key = itemgetter(1), reverse=True)
 
-for c, d in sorted_dict_fin[:25]:
-    print ("{0} : {1}".format(c,d))
+for c, d in sorted_dict_fin[:60]:
+    print ("{0}".format(c))
