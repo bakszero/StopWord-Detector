@@ -1,0 +1,19 @@
+चतुष्फलकी
+
+ठोस ज्यामिति में चार समतल फलकों वाले ठोस को चतुष्फलकी (चतुः + फलकी = चार फलकों वाली / tetrahedron) कहते हैं। चारों फलक त्रिभुजाकार होते हैं। इसमें से कोई तीन फलक एक बिन्दु पर मिलते हैं जिसे 'शीर्ष' (vertex) कहते हैं। चतुष्फलकी में चार फलक, चार शीर्ष एवं छः कोर (edges) होतीं हैं। साधारण उत्तल बहुफलकियों में चतुष्फलकी ही सबसे सरल ठोस है।
+
+चतुष्फलकी एक प्रकार का पिरामिड ही है जिसका आधार त्रिभुज है। अतः इसे 'त्रिभुजीय पिरामिड' भी कहा जाता है। 
+
+सभी उत्तल बहुफलकियों की भांति चतुष्फलकी भी एक ही कागज के तुकड़े से मोड़कर बनायी जा सकती है। किसी भी चतुष्फलकी के चारों शीर्षों से होकर एक गोल तल बनाया जा सकता है, जिसे परिगोला (circumsphere) कहते हैं। इसी प्रकार इसके चारों फलकों को स्पर्श करता हुआ भी एक गोल तल बनाया जा सकता है जिसे अन्तःगोला (insphere) कहते हैं।
+
+जिस चतुष्फलक के सभी फलक समबाहु त्रिभुज हों, उसे समचतुष्फलक (रेगुलर टेट्राहेड्रॉन) कहते हैं। 
+
+चतुष्फलक का आयतन
+
+जहाँ formula_2 चतुष्फलक के आधार का क्षेत्रफल तथा formula_3 इस आधार पर सामने के शीर्ष से डाले गए लम्ब की लम्बाई है।
+
+formula_4 जहाँ A, B, C और D चतुष्फलक के शीर्ष हैं।
+
+यदि किसी समचतुष्फलक के कोर की लम्बाई 'a' हो तो :
+
+Note that with respect to the base plane the slope of a face (formula_5) is twice that of an edge (formula_6), corresponding to the fact that the "horizontal" distance covered from the base to the apex along an edge is twice that along the median of a face. In other words, if "C" is the centroid of the base, the distance from "C" to a vertex of the base is twice that from "C" to the midpoint of an edge of the base. This follows from the fact that the medians of a triangle intersect at its centroid, and this point divides each of them in two segments, one of which is twice as long as the other (see ).

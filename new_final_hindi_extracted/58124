@@ -1,0 +1,22 @@
+थोरियम ईंधन चक्र
+
+थोरियम ईंधन चक्र ( thorium fuel cycle) एक नाभिकीय ईंधन चक्र है जो थोरियम के समस्थानिक Th-232 का उपयोग उर्वर पदार्थ (फर्टाइल मैटेरियल) के रूप में करता है। रिएक्टर में Th-232 बदलकर यूरेनियम-२३३ बन जाता है जो नाभिकीय ईंधन है।
+
+In the thorium cycle, fuel is formed when captures a neutron (whether in a fast reactor or thermal reactor) to become . This normally emits an electron and an anti-neutrino () by decay to become . This then emits another electron and anti-neutrino by a second decay to become , the fuel:
+
+Nuclear fission produces radioactive fission products which can have half-lives from days to greater than 200,000 years. According to some toxicity studies, the thorium cycle can fully recycle actinide wastes and only emit fission product wastes, and after a few hundred years, the waste from a thorium reactor can be less toxic than the uranium ore that would have been used to produce low enriched uranium fuel for a light water reactor of the same power.
+Other studies assume some actinide losses and find that actinide wastes dominate thorium cycle waste radioactivity at some future periods.
+
+In a reactor, when a neutron hits a fissile atom (such as certain isotopes of uranium), it either splits the nucleus or is captured and transmutes the atom. In the case of , the transmutations tend to produce useful nuclear fuels rather than transuranic wastes. When absorbs a neutron, it either fissions or becomes . The chance of fissioning on absorption of a thermal neutron is about 92%; the capture-to-fission ratio of , therefore, is about 1:12 — which is better than the corresponding capture vs. fission ratios of (about 1:6), or or (both about 1:3).
+The result is less transuranic waste than in a reactor using the uranium-plutonium fuel cycle.
+
+, like most actinides with an even number of neutrons, is not fissile, but neutron capture produces fissile . If the fissile isotope fails to fission on neutron capture, it produces , , , and eventually fissile and heavier isotopes of plutonium.
+The can be removed and stored as waste or retained and transmuted to plutonium, where more of it fissions, while the remainder becomes , then americium and curium, which in turn can be removed as waste or returned to reactors for further transmutation and fission.
+
+However, the (with a half-life of ) formed via ("n",2"n") reactions with (yielding that decays to ), while not a transuranic waste, is a major contributor to the long-term radiotoxicity of spent nuclear fuel.
+
+Uranium-232 is also formed in this process, via ("n",2"n") reactions between fast neutrons and , , and :
+
+Uranium-232 has a relatively short half-life (), and some decay products emit high energy gamma radiation, such as , and particularly . The full decay chain, along with half-lives and relevant gamma energies, is:
+
+Thorium-cycle fuels produce hard gamma emissions, which damage electronics, limiting their use in military bomb triggers. cannot be chemically separated from from used nuclear fuel; however, chemical separation of thorium from uranium removes the decay product and the radiation from the rest of the decay chain, which gradually build up as reaccumulates. The hard gamma emissions also create a radiological hazard which requires remote handling during reprocessing.

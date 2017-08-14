@@ -1,0 +1,37 @@
+मृदा प्रतिरोधकता
+
+नये स्थानों पर ग्राउण्डिंग प्रणाली (grounding system ) की समुचित डिजाइन करने के लिये वहाँ की मृदा प्रतिरोधकता (Soil Resistivity) का ज्ञान अति आवश्यक है।
+
+विभिन्न स्थानों पर मृदा की प्रतिरोधकता में बहुत अन्तर पाया जाता है, जिसके लिये नमी, ताप, तथा मृदा का रसायनिक संरचना का लग-अलग होना मुख्य कारण हैं। मृदा प्रतिरोधकता के सामान्य मान ये हैं-
+
+
+The Wenner four-pin method, as shown in figure above, is the most commonly used technique for soil resistivity measurements.
+Using the Wenner method, the apparent soil resistivity value is:
+
+where
+
+ρ = measured apparent soil resistivity (Ωm)
+
+a = electrode spacing (m)
+
+b = depth of the electrodes (m)
+
+R = Wenner resistance measured as "V/I" in Figure (Ω)
+If b is small compared to a, as is the case of probes penetrating the ground only for a short distance (as normally happens), the previous equation can be reduced to:
+
+In the Schlumberger method the distance between the voltages probe is a and the distances from voltages probe and currents probe are c (see figure above)।
+
+Using the Schlumberger method, if b is small compared to a and c, and c>2a, the apparent soil resistivity value is:
+
+where
+
+ρ = measured apparent soil resistivity (Ωm)
+
+a = electrode spacing (m)
+
+b = depth of the electrodes (m)
+
+c = electrode spacing (m)
+
+R = Schlumberger resistance measured as "V/I" in Figure (Ω)
+

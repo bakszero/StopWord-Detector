@@ -1,0 +1,8 @@
+स्विच मोड पॉवर सप्लाई
+
+स्विच मोड पॉवर सप्लाई (Switch-mode power supply) या एसएमपीएस उन शक्ति-परिवर्तकों (पावर कन्वर्टर्स) को कहते हैं जिनमें पॉवर-कन्वर्शन के लिये किसी स्विच (जैसे आईजीबीटी) को उच्च आवृत्ति पर चालू-बन्द (ON/OFF) किया जाता है। इनकी दक्षता उन कन्वर्टरों से बहुत अधिक होती है जिन्हें रेखीय शक्ति आपूर्ति (लिनियर पॉवर सप्लाईज) कहते हैं जिनमें किसी शक्ति को नियंत्रित करने वाली युक्ति न तो पूरी तरह चालू होती है न पूरी तरह बन्द (अर्थात वह युक्ति ऐक्टिव रीजन में काम करती है)।
+आजकल उच्च गुणवत्ता वाली स्विचों की उपलब्धता के कारण अधिकांश शक्ति आपूर्तियाँ एसएमपीएस प्रकार की ही निर्मित की जा रही हैं। उच्च दक्षता के अतिरिक्त इनका आकार (साइज) भी समान क्षमता के लिनियर पॉवर सप्लाई से छोटा होता है।
+
+In a quasi-resonant zero-current/zero-voltage switch (ZCS/ZVS) "each switch cycle delivers a quantized 'packet' of energy to the converter output, and switch turn-on and turn-off occurs at zero current and voltage, resulting in an essentially lossless switch." Quasi-resonant switching, also known as "valley switching", reduces EMI in the power supply by two methods:
+
+

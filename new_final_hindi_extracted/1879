@@ -1,0 +1,84 @@
+आंशिक भिन्न
+
+बीजगणित में, आंशिक भिन्न प्रसार (partial fraction expansion) एक विधि है जो किसी परिमेय भिन्न के अंश या हर के डेग्री (degree) को कम करने के काम आती है।
+
+सांकेतिक रूप में, निम्नलिखित परिमेय भिन्न को आंशिक भिन्नों में तोड़ा जा सकता है-
+
+जहाँ ƒ और g बहुपद (polynomials) है। इसके आंशिक भिन्न निम्नवत होंगे-
+
+जहाँ "g" ("x") बहुपद हैं और ये "g"("x") के गुणखण्ड हैं। 
+
+
+माना दिया हुआ भिन्न formula_5 है तो:
+
+
+जब दिये हुए भिन्न के हर को formula_6 जैसे रैखिक गुणनखण्ड हो सकें ; जहाँ n >=1
+
+formula_7
+
+
+जब दिये हुए भिन्न के हर का रैखिक गुणनखण्ड न हो बल्कि formula_8 जैसे द्विघात गुणखण्ड हो (जहाँ n >= 1) :
+
+formula_9
+
+Here, the denominator splits into two distinct linear factors:
+
+so we have the partial fraction decomposition
+
+Multiplying through by "x" + 2"x" − 3, we have the polynomial identity
+
+Substituting "x" = −3 into this equation gives "A" = −1/4, and substituting "x" = 1 gives "B" = 1/4, so that
+
+After long-division, we have
+
+Since (−4) − 4×8 = −16 < 0, the factor "x" − 4"x" + 8 is irreducible, and the partial fraction decomposition over the reals has the shape
+
+Multiplying through by "x" − 4"x" + 8"x", we have the polynomial identity
+
+Taking "x" = 0, we see that 16 = 8"A", so "A" = 2. Comparing the "x" coefficients, we see that 4 = "A" + "B" = 2 + "B", so "B" = 2. Comparing linear coefficients, we see that −8 = −4"A" + "C" = −8 + "C", so "C" = 0. Altogether,
+
+The following example illustrates almost all the "tricks" one would need to use short of consulting a computer algebra system.
+
+After long-division and factoring the denominator, we have
+
+The partial fraction decomposition takes the form
+
+Multiplying through by ("x" − 1)("x" + 1) we have the polynomial identity
+
+Taking "x" = 1 gives 4 = 4"C", so "C" = 1. Similarly, taking "x" = "i" gives 2 + 2"i" = ("Fi" + "G")(2 + 2"i"), so "Fi" + "G" = 1, so "F" = 0 and "G" = 1 by equating real and imaginary parts. With "C" = "G" = 1 and "F" = 0, taking "x" = 0 we get "A" − "B" + 1 − "E" − 1 = 0, thus "E" = "A" − "B".
+
+We now have the identity
+
+Expanding and sorting by exponents of x we get
+
+We can now compare the coefficients and see that
+
+with "A" = 2 − "D" and −"A" −3 "D" =−4 we get "A" = "D" = 1 and so "B" = 0, furthermore is "C" = 1, "E" = "A" − "B" = 1, "F" = 0 and "G" = 1.
+
+The partial fraction decomposition of "ƒ"("x") is thus
+
+Alternatively, instead of expanding, one can obtain other linear dependences on the coefficients computing some derivatives at "x=1" and at "x=i" in the above polynomial identity. (To this end, recall that the derivative at "x=a" of "(x−a)p(x)" vanishes if "m > 1" and it is just "p(a)" if "m=1".)
+Thus, for instance the first derivative at "x=1" gives 
+that is "8 = 4B + 8" so "B=0".
+
+Thus, "f"("z") can be decomposed into rational functions whose denominators are "z"+1, "z"−1, "z"+i, "z"−i. Since each term is of power one, −1, 1, −"i" and "i" are simple poles.
+
+Hence, the residues associated with each pole, given by
+are 
+respectively, and
+
+Limits can be used to find a partial fraction decomposition.
+
+First, factor the denominator:
+
+The decomposition takes the form of
+
+As formula_36, the "A" term dominates, so the right-hand side approaches formula_37. Thus, we have
+
+As formula_40, the right-hand side is
+
+Thus, formula_43.
+
+At formula_44, formula_45. Therefore, formula_46.
+
+The decomposition is thus formula_47.

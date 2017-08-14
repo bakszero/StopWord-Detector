@@ -1,0 +1,33 @@
+साधारण अवकल समीकरण
+
+गणित में साधारण अवकल समीकरण (ordinary differential equation या ODE) उन अवकल समीकरणों को कहते हैं जिसमें केवल एक स्वतंत्र चर तथा उसके अवकलज मौजूद हों। 
+
+साधारण अवकल समीकरण का एक उदाहरण नियत द्रव्यमान "m" वाली किसी वस्तु की गति का वर्णन करने वाला न्यूटन का गति का दूसरा नियम है-
+
+जिसमें बल F वस्तु की स्थिति x (t) तथा समय t पर निर्भर है। इसमें अज्ञात फलन x (t) समीकरण के दोनों तरफ विद्यमान है।
+
+अन्य उदाहरण:
+
+जिसका हल है : formula_3.
+
+
+कुछ अवकल समीकरणों का हल ठीक-ठीक तथा बन्द स्वरूप (exact and closed form) में लिखा जा सकता है। यहाँ कुछ प्रकार के महत्वपूर्ण अवकल समीकरण दिये गये हैं-
+
+formula_9
+
+Particular integral "y": in general the method of variation of parameters, though for very simple "r"("x") inspection may work.
+
+Since α are the solutions of the polynomial of degree "n": formula_12, then:
+
+for α all different,
+
+formula_13
+
+for each root α repeated "k" times,
+
+formula_14
+
+for some α complex, then setting α = χ + "i"γ, and using Euler's formula, allows some terms in the previous results to be written in the form
+
+where ϕ is an arbitrary constant (phase shift).
+

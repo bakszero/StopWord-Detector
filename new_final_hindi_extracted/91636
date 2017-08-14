@@ -1,0 +1,59 @@
+समिश्र संख्या
+
+गणित में समिश्र संख्याएँ (complex number) वास्तविक संख्याओं का विस्तार है। किसी वास्तविक संख्या में एक "काल्पनिक भाग" जोड़ देने से समिश्र संख्या बनती है। समिश्र संख्या के काल्पनिक भाग के साथ i जुड़ा होता है जो निम्नलिखित सम्बन्ध को संतुष्ट करती है:
+
+किसी भी समिश्र संख्या को "a" + "bi", के रूप में व्यक्त किया जा सकता है जिसमें "a" और "b" दोनो ही वास्तविक संख्याएं हैं। "a" + "bi" में "a" को वास्तविक भाग तथा "b" को काल्पनिक भाग कहते हैं। उदाहरण: "3" + "4i" एक समिश्र संख्या है।
+
+समिश्र संख्या को "a" + "bi" के रूप में दर्शाने को समिश्र संख्या का कार्तीय स्वरूप (Cartesian Form) कहते है।
+
+समिश्र संख्या "z" = "x" + "iy" को ध्रुवीय निर्देशांकों के रूप में भी निरूपित कर सकते हैं। ध्रुवीय निर्देशांक "r" = |"z"| ≥ 0, को समिश्र संख्या का निरपेक्ष मान (absolute value) या मापांक (modulus) कहते हैं। इसी प्रकार "φ" = arg("z") को "z" का कोणांक (argument) कहते हैं।
+
+कोणांक "φ" = कोणांक ankit sharma is a good manjमुख्य मान (−π, +π] के बीच देता है। किन्तु यदि "φ" का ऋणात्मक मान नहिं चाहिये बल्कि [0, 2π) के बीच में चाहिये तो उस ऋणात्मक मान में 2π जोड़कर प्राप्त किया जा सकता है।
+
+निम्नलिखित रूप "ध्रुवीय स्वरूप" कहलाता है:
+इसे cis φ से भी निरुपित करते हैं जो cos "φ" + "i" sin "φ" का संक्षिप्त रूप है।
+
+यूलर का सूत्र (Euler's formula) का प्रयोग करके इसे निम्नलिखित तरीके से भी लिख सकते हैं:
+इस स्वरूप को "इक्सपोनेंशियल रूप"' (exponential form) कहते हैं।
+
+एलेक्ट्रॉनिकी में किसी फेजर (phasor) के लिये समिश्र संख्या के कोणीय निरूपण का बहुधा प्रयोग होता है। जिसमें "A" आयाम एवं "θ" कला (फेज) है।
+ध्यान रहे कि एलेक्ट्रॉनिकी और विद्युत अभियांत्रिकी में "i" के बजाय "j" का प्रयोग किया जाता है क्योंकि "i" के द्वारा विद्युत धारा का निरुपण किया जाता है।
+
+The absolute value (or "modulus" or "magnitude") of a complex number formula_9 is defined as formula_10. Algebraically, if formula_11, then formula_12
+
+The absolute value has three important properties:
+
+for all complex numbers "z" and "w". These imply that formula_18 and formula_19. By defining the distance function formula_20, we turn the set of complex numbers into a metric space and we can therefore talk about limits and continuity. 
+
+The complex conjugate of the complex number formula_11 is defined to be formula_22, written as formula_23 or formula_24. As seen in the figure, formula_23 is the "reflection" of "z" about the real axis, and so both formula_26 and formula_27 are real numbers. Many identities relate complex numbers and their conjugates:
+
+formula_31
+
+योग:
+
+घटाना:
+
+गुणा:
+
+भाग:
+
+formula_41 का formula_42वाँ घात इस प्रकार निकाला जाता है
+
+या कार्तीय रूप formula_44 के लिये
+
+किसी समिश्र आधार पर समिश्र घातांक के लिये सामान्य सूत्र है:
+
+यहाँ formula_47 समिश्र गघुगणक का मुख्य मान लिया जायेगा।
+
+यहाँ बहुत सावधानी की जरूरत होती है; देखिये -
+
+निम्नलिखित सूत्र समिश्र संख्या formula_49 का formula_42वाँ मूल निकालने के लिये प्रयुक्त होता है:
+
+जहाँ formula_52 का मान formula_53। इस प्रकार किसी संख्या के formula_42वें मूलों की कुल संख्या formula_42 होती है।
+
+समिश्र संख्या formula_56 के प्राकृतिक लघुगणक का मुख्य मान होगा:
+
+अन्तिम वाला सूत्र किसी समिश्र संख्या का व्युत्क्रम (इन्वर्स) निकालने के लिये बहुत उपयोगी है, यदि वह संख्या कार्तीय रूप में दी गयी है।
+
+gfrfhdtgh
+

@@ -1,0 +1,11 @@
+HTML रंगों के नाम
+
+HTML 4.01 विशिष्टताएं परिभाषित करती हैं, सोलह नामित रंग, निम्नलिखित प्रकार से (नाम केस मुक्त हैं, एवं सारणी वर्णक्रमानुसार है):
+
+यह 16 रंग sRGB भी कहलाते हैं, एवं HTML 3.0 "specification" में सम्मिलित किये गये हैं। जिसमें दिया है कि "These colors were originally picked as being the standard 16 colors supported with the Windows VGA palette." यह भी ध्यान योग्य है कि, fuchsia एकदम समान है magenta रंग के, (अधोलिखित सूची में) एवं ऐसे ही एक्वुआ समान है क्यान के।
+
+ध्यान दें, कि सभी कलर वैल्यूज़ #000000 - #FFFFFF पर्यन्त (16,777,216 colors) मान्य हैं।
+
+Nonstandard HTML recognizes other X11 color names, including "orange," "darkgray" (which, ironically, is lighter than gray), "darkorange," "lightgray," "darkgreen," "beige," "tan," "brown" and others.
+
+Combination of HTML background and text colors.

@@ -1,0 +1,15 @@
+संकलन
+
+संख्याओं के किसी क्रम को जोड़ने की संक्रिया संकलन (Summation) कहलाती है। इसका परिणाम योग (sum) या कुलयोग (total) कहलाती है।
+
+यह निम्नलिखित तरीके से परिभाषित है-
+
+
+The following formulas are manipulations of formula_23 generalized to begin a series at any natural number value (i.e., formula_24):
+
+In the summations below "x" is a constant not equal to 1
+
+There exist enormously many summation identities involving binomial coefficients (a whole chapter of Concrete Mathematics is devoted to just the basic techniques)। Some of the most basic ones are the following.
+
+The following are useful approximations (using theta notation):
+

@@ -1,0 +1,52 @@
+लुआ (प्रोग्रामन भाषा)
+
+'लुआ' (Lua; पुर्तगाली भाषा में इसका अर्थ 'चन्द्रमा' है) छोटे आकार की प्रोग्रामन भाषा है जो मुख्यतः स्क्रिप्टिंग भाषा के रूप में प्रयोग के लिये डिजाइन की गयी है। फेम्म (FEMM) नामक 'फाइनाइट एलिमेन्ट' आधारित मुक्तस्रोत विश्लेषण प्रोग्राम को बैच मोड में चलाने के लिये लुआ ही प्रयुक्त होती है।
+
+लुआ भाषा का सृजन 1993 में ब्राजील के रॉबर्तो लेरुसालिम्स्की (Roberto Ierusalimschy), फिगरेदो तथा वाल्दीमर सीलीस (Waldemar Celes) ने की थी। 
+
+लुआ में सर्वप्रसिद्ध 'हेलो वर्ल्ड प्रोग्राम' इस प्रकार लिखा जा सकता है:
+
+print 'Hello World!'
+टिप्पणी (कमेण्ट) के लिए सिंटैक्स यह है:
+
+-- लुआ में कोई भी कमेण्ट लाइन डबल-हाइफन से आरम्भ होती है। (एक लाइन वाले कमेंट)
+-- अनेक लाइन वाले कमेंटों को 
+--[=[ इस तरह के कमेंट में दूसरे --कमेण्ट गुंथित (nested) हो किए जा सकते हैं ]=]
+नीचे के उदाहरण में फैक्टोरियल निकालने के लिए फलन का कोड लिखा गया है:
+
+function factorial(n)
+end
+लुआ में चार तरह के लूप हैं।: while loop, repeat loop, for loop, तथा सामान्य for लूप। (यहाँ जो लोकल चर पारिभाषित किए गए हैं वे केवल प्रोग्राम को 'पूरा' करने के लिए हैं।)
+
+The while loop has the syntax:
+
+local condition = true
+while condition do
+end
+The repeat loop:
+
+local condition = false
+repeat
+until condition
+
+executes the loop body at least once, and would keep looping until cond becomes true.
+
+The for loop:
+
+for index = 1,5 do
+end
+
+would repeat the loop body 5 times, outputting the numbers 1 through 5 inclusive.
+
+Another form of the for loop is:
+
+local start,finish,delta = 10,1,-1 --delta may be negative, allowing the for loop to count down or up.
+for index = start,finish,delta do
+end
+The generic for loop:
+
+for key,value in pairs(_G) do
+end
+
+would iterate over the table _G using the standard iterator function pairs, until it returns nil.
+

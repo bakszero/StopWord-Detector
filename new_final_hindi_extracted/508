@@ -1,0 +1,100 @@
+प्रोग्रामन भाषाओं की सूची (वर्गानुसार)
+
+
+
+
+
+
+
+इन भाषाओं में ऐसे प्रावधान हैं जो एक साथ कई कार्य ककराने वाले प्रोग्राम लिखने मेंसहायक होती हैं।
+
+
+
+
+Assembly languages which statically link data inline with instructions can also be considered data-structured, in the most primitive way.
+
+ये भाषाएँ किसी समस्या का वर्णन करने के लिये उपयुक्त हैं न कि किसी समाधान या हल के लिये।
+
+ये भाषाएँ दूसरी प्रोग्रामन भाषाओं की सीमा की जाँच के लिये डिजाइन की गयी होती हैं।
+
+ये भाषाएँ किसी दूसरे प्रोग्राम में 'इम्बेड' किये जाने योग्य प्रोग्राम लिखने के लिये बनी हैं।
+
+
+ये भाषाएँ सभी प्रोग्रामों एवं सबरोटीनों को फंक्शन के रूप में परिभाषित करती हैं। 
+
+Interactive mode languages act as a kind of shell: expressions or statements can be entered one at a time, and the result of their evaluation is seen immediately.
+
+
+Interpreted languages are programming languages which programs may be executed from source code form, by an interpreter. Theoretically, any language can be compiled or interpreted, so the term *interpreted language* generally refers to languages that are commonly interpreted rather than compiled.
+
+
+Iterative languages are built around or offering generators.
+
+
+List-based languages are a type of data-structured language that are based upon the list data structure.
+
+
+Little languages serve a specialized problem domain.
+
+
+Logic-based languages specify a set of attributes that a solution must have, rather than a set of steps to obtain a solution. Examples:
+
+
+Machine languages are directly executable by a computer's CPU. They are typically formulated as bit patterns, usually represented in octal or hexadecimal. Each group of npatterns (often 1 or more bytes) causes the circuits in the CPU to execute one of the fundamental operations of the hardware. The activation of specific electrical inputs (e.g., CPU package pins for microprocessors), and logical settings for CPU state values, control the processor's computation. Individual machine languages are processor specific and are not portable. They are (essentially) always defined by the CPU developer, not by 3rd parties. The symbolic version, the processor's assembly language, is also defined by the developer, in most cases. Since processors come in families which are based on a shared architecture, the same basic assembly language style can often be used for more than one CPU. Each of the following CPUs served as the basis for a family of processors:
+
+
+Macro languages embed small pieces of executable code inside a piece of free-form text.
+
+Scripting languages such as Tcl and ECMAScript (ActionScript, DMDScript, ECMAScript for XML, JavaScript, JScript) have been embedded into applications so that they behave like macro languages.
+
+Metaprogramming is writing of programs that write or manipulate other programs (or themselves) as their data or that do part of the work that is otherwise done at run time during compile time. In many cases, this allows programmers to get more done in the same amount of time as they would take to write all the code manually.
+
+Multiparadigm languages support more than one programming paradigm. They allow a program to use more than one programming style. The goal is to allow programmers to use the best tool for a job, admitting that no one paradigm solves all problems in the easiest or most efficient way.
+
+
+
+
+Class-based Object-oriented programming languages support objects defined by their class. Class definitions include member data. Message passing is a key concept (if not the key concept) in Object-oriented languages. 
+
+Polymorphic functions parameterized by the class of some of their arguments are typically called methods. In languages with single dispatch, classes typically also include method definitions. In languages with multiple dispatch, methods are defined by generic functions. There are exceptions where single dispatch methods are generic functions (e.g. Bigloo's object system).
+
+
+
+Prototype-based languages are object-oriented languages where the distinction between classes and instances have been removed:
+
+
+Off-side rule languages are those where blocks are formed, indicated, by their indentation.
+
+
+Procedural programming languages are based on the concept of the unit and scope (the data viewing range of an executable code statement). A procedural program is composed of one or more units or modules, either user coded or provided in a code library; each module is composed of one or more procedures, also called a function, routine, subroutine, or method, depending on the language. Examples of procedural languages include:
+
+
+Reflective languages let programs examine and possibly modify their high level structure at runtime. This is most common in high-level virtual machine programming languages like Smalltalk, and less common in lower-level programming languages like C. Languages and platforms supporting reflection:
+
+
+Rule-based languages instantiate rules when activated by conditions in a set of data. Of all possible activations, some set will be selected and the statements belonging to those rules will be executed. Examples of rule-based languages include:
+
+
+"Scripting language" has two apparently different, but in fact similar meanings. In a traditional sense, scripting languages are designed to automate frequently used tasks that usually involve calling or passing commands to external programs. Many complex application programs allow users to implement custom functions by providing them with built-in languages. Those which are of interpretive type, are often called scripting languages.
+
+More recently many of these applications have chosen to "build in" traditional scripting languages, such as Perl or Visual Basic, but there are quite a few "native" scripting languages still in use. Many scripting languages are compiled to bytecode and then this (usually) platform independent bytecode is run through a virtual machine (compare to Java).
+
+
+Stack-based languages are a type of data-structured language that are based upon the stack data structure.
+
+
+Synchronous programming languages are optimized for programming reactive systems, systems that are often interrupted and must respond quickly. Many such systems are also called realtime systems, and are found often in embedded uses. Examples:
+
+
+These languages assist with generating lexical analzyers and parsers for Context-free grammars.
+
+Visual programming languages let users specify programs in a two-(or more)-dimensional way, instead of as one-dimensional text strings, via graphic layouts of various types.
+
+Some dataflow programming languages are also visual languages.
+
+Computer scientist Niklaus Wirth designed and implemented several influential languages.
+
+
+These are languages based on or that operate on XML. Although the big-boy equivalents of Oracle/PostgreSQL/MSSQL don't yet exist for XML, there are languages to navigate through it and its more tree-oriented structure.
+
+

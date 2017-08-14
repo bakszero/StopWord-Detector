@@ -1,0 +1,22 @@
+कोणीय वेग
+
+समय के साथ ध्रुवांतर द्वारा घुमे गए कोण की दर को कोणीय वेग कहते हैं। इसका संकेत formula_1 है। यदि समय formula_2 में ध्रुवोत्तर कोण formula_3 से घूम गया हो, तो-
+
+formula_1 = formula_3 formula_6 formula_2 रेडियन / सेकेंड (S.I.)
+
+कोणीय वेग एक सदिश राशि है (इसे छद्म सदिश कहना अधिक सही है)। इसकी दिशा वस्तु के घूर्णन तल के लम्बवत (अर्थात् घूर्णन अक्ष की दिशा में) होती है। 
+
+मान लें कि formula_2 समय में कोई वस्तु formula_9 से formula_10 तक चलती है और यदि formula_11 = formula_12 हो, तो
+
+वस्तु का रेखीय चाल formula_13 = formula_12 formula_6 formula_2
+
+formula_1 = formula_3 formula_6 formula_2, जब formula_3 रेडियन में मापा जाता है तो-
+
+formula_3 = formula_12 formula_6 formula_25
+
+formula_1 = formula_27 = formula_28 = formula_29 = formula_30
+
+formula_31 formula_13 = formula_25 formula_34 formula_1
+
+अर्थात रेखीय वेग = त्रिज्या formula_36 कोणीय वेग
+

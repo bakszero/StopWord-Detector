@@ -1,0 +1,24 @@
+बिट मानचित्र
+
+कम्प्यूटर में सूचनाओं को रखने के लिए आकंणों को ० और १ के रूप में जिसे बिट भी कहते हैं, में रखा जाता है। किसी सूचना को दर्शाने के लिये ० और १ की जो द्विआयामी सारणी या मानचित्र तैयार होता है उसे ही बिटमैप या बिट ऐरे कहते है।
+
+कंप्यूटर ग्राफिक्स में जब यह मानचित्र एक आयत होता है तब बिटमैप बनाकर किसी दोआयामी चित्र को रखा जाता है। दोआयामी चित्र वह होते हैं जिसमें हर एक पिक्सेल काली या सफेद या फिर किन्हीं दो रंगों से भरी होती है।
+(pixmap) पिक्समैप शब्द पिक्सलों के मानचित्र के लिये इस्तेमाल किया जाता है। यहाँ हर पिक्सेल एक से ज्यादा रंग रख सकता है। इस तरह से इसमें हर पिक्सेल के लिये एक से ज्यादा बिट इस्तेमाल होते हैं, जबकि बिटमैप में एक पिक्सेल के लिये एक ही बिट इस्तेमाल होता है। कुछ संदर्भों में "बिटमैप" को एक बिट प्रति पिक्सेल व "पिक्समैप" को कई बिट प्रति पिक्सेल के लिये इस्तेमाल किया जाता है।
+
+बिटमैप एक तरह की स्मृति रूप या चित्र संचिका फॉर्मेट है जिसे चित्रों को रखने के लिए उपयोग किया जाता है। बिटमैप शब्द कंप्यूटर प्रोग्रामिंग भाषा की शब्दावली से निकला है जिसक मतलब होता है बिटों का मानचित्र (मैप ऑफ बिट्स)।
+In typical uncompressed bitmaps, image pixels are generally stored with a color depth of 1, 4, 8, 16, 24, 32, 48, or 64 bits per pixel. Pixels of 8 bits and fewer can represent either grayscale or indexed color. An alpha channel (for transparency) may be stored in a separate bitmap, where it is similar to a grayscale bitmap, or in a fourth channel that, for example, converts 24-bit images to 32 bits per pixel.
+
+The bits representing the bitmap pixels may be packed or unpacked (spaced out to byte or word boundaries), depending on the format or device requirements. Depending on the color depth, a pixel in the picture will occupy at least n/8 bytes, where n is the bit depth.
+
+For an uncompressed, packed within rows, bitmap, such as is stored in Microsoft DIB or BMP file format, or in uncompressed TIFF format, a lower bound on storage size for a n-bit-per-pixel (2 colors) bitmap, in bytes, can be calculated as:
+
+In the formula above, header size and color palette size, if any, are not included. Due to effects of row padding to align each row start to a storage unit boundary such as a word, additional bytes may be needed.
+
+रंगीन बिट मानचित्रों को विभिन्न उपकरणों व सॉफ्टवेयरों के बीच बाँटने व उपयोग करने के लिये माइक्रोसॉफ्ट ने विभिन्न रंगो व उनकी गहराईयों को प्रदर्शित करने के लिये एक विशेष प्रदर्शन पद्दति परिभाषित की है। उन्होंने इसे उपकरण मुक्त बिटमैप (device-independent bitmap) का नाम दिया है और इन संचिकाओं के फॉर्मेट को DIB या BMP का नाम दिया गया है। माइक्रोसॉफ्ट सहयोग वेबसाइट के अनुसार 
+एक उपकरण मुक्त बिटमैप (DIB) चित्रों को सहेजने के लिये ऐसा फाइल फॉर्मेट है जिसे विभिन्न रंगो में उपकरण मुक्त चित्रों को परिभाषित करने के लिये उपयोग किया जाता है। DIB का प्रमुख कार्य किसी बिटमैप को एक से दूसरे उपकरण में स्थानतरण के लायक बनाना होता है। इसीलिए इसे उपकरण मुक्त या डिवाइस इंडिपेंडेन्ट कहते हैं। DIB एक बाहरी फॉर्मेट है जबकि उपकरण पर निर्भर बिटमैप कम्प्यूटर में सॉफ्टवेयर द्वारा बनाए हुए एक बिट मानचित्र वस्तु की तरह रहता है। उसे उस कंप्यूटर व सॉफ्टवेयर पर ही उपयोग किया जा सकता है। DIB को मुख्यत: बीएमपी संचिकाओं के रूप में स्थानांतरित किया जाता है।
+यहाँ, उपकरण-मुक्त "device independent" से तात्पर्य फाइल फॉर्मेट या फाइल भन्डारण प्रक्रिया से है।
+
+The X Window System uses a similar XBM format for black-and-white images, and XPM ("pixelmap") for color images. Numerous other uncompressed bitmap file formats are in use, though most not widely. For most purposes standardized compressed bitmap files such as GIF, PNG, TIFF, and JPEG are used; lossless compression in particular provides the same information as a bitmap in a smaller file size. TIFF and JPEG have various options. JPEG is usually lossy compression. TIFF is usually either uncompressed, or lossless Lempel-Ziv-Welch compressed like GIF. PNG uses deflate lossless compression, another Lempel-Ziv variant.
+
+There are also a variety of "raw" image files, which store raw bitmaps with no other information; such raw files are just bitmaps in files, often with no header or size information (they are distinct from photographic raw image formats, which store raw unprocessed sensor data in a structured container such as TIFF format along with extensive image metadata).
+

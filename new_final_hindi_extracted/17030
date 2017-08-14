@@ -1,0 +1,54 @@
+स्टार-डेल्टा परिवर्तन
+
+स्टार-डेल्टा परिवर्तन (Y-Δ transform) एक गणितीय तकनीक है जो किसी विद्युत परिपथ के विश्लेषण को सरल बना देता है। इसे Y-delta, वाई-डेल्टा, डेल्टा-स्टार परिवर्तन, स्टार-मेश परिवर्तन, T-Π or T-पाई परिवर्तन आदि नामों से भी जाना जाता है। इसका यह नाम विद्युत परिपथ की आकृति के आधार पर पड़ा है जो कि रोमन अक्षर Y और ग्रीक अक्षरΔ जैसे दिखती हैं। यह परिपथ परिवर्तन सन् १८९९ में आर्थर एड्विन केनेडी ने प्रकाशित किया था।
+
+वस्तुत: यह परिवर्तन तीन-सिरों वाले दो नेटवर्कों में तुल्यता स्थापित करता है। तुल्यता के लिये आवश्यक है कि दोनो ही नेटवर्कों में किन्ही दो सिरों के बीच तुल्य प्रतिबाधा (impedance) समान होनी चाहिये। 
+
+The general idea is to compute the impedance formula_1 at a terminal node of the Y circuit with impedances formula_2, formula_3 to adjacent nodes in the Δ circuit by
+where formula_5 are all impedances in the Δ circuit. This yields the specific formulae
+
+The general idea is to compute an impedance formula_5 in the Δ circuit by
+
+where formula_11 is the sum of the products of all pairs of impedances in the Y circuit and formula_12 is the impedance of the node in the Y circuit which is opposite the edge with formula_5. The formula for the individual edges are thus
+
+In graph theory, the Y-Δ transform means replacing a Y subgraph of a graph with the equivalent Δ subgraph. The transform preserves the number of edges in a graph, but not the number of vertices or the number of cycles. Two graphs are said to be Y-Δ equivalent if one can be obtained from the other by a series of Y-Δ transforms in either direction. For example, the Petersen graphs are a Y-Δ equivalence class.
+
+Given the values of formula_17, formula_18 and formula_19 from the Δ configuration, we want to obtain the values of formula_20, formula_21 and formula_22 in the equivalent Y configuration. In order to do that, we will calculate the equivalent impedances of both configurations in "N""N", "N""N" and "N""N", supposing in each case that the omitted node is unconnected, and we will equal both expressions, since the resistance must be the same.
+The resistance between N and N when N is not connected in the Δ configuration is
+
+In the Y configuration, we have
+
+By similar calculations we obtain
+
+and
+
+The impedances for the Y configuration can be derived from these equations by adding two equations and subtracting the third. For example, adding (1) and (3), then subtracting (2) yields
+
+and hence
+
+and
+
+Let formula_30. We can write the Δ to Y equations as
+
+Multiplying the pairs of equations yields
+
+and the sum of these equations is
+
+Now we divide each side of (7) by formula_20, leaving
+
+Using (1) in (8), we have
+
+and by definition of formula_41
+
+which is the equation for formula_18. Dividing (7) by formula_21 and formula_22 gives the other equations.
+
+स्टार-डेल्टा परिवर्तन का उपयोग नेटवर्कों को सरलीकृत करके उनका विश्लेषण करने में होता है। जिस प्रकार श्रेणीक्रम या समान्तर क्रम में जुड़े प्रतिरोधों (या कोई भी प्रतिबाधा) को एक अवयव से प्रतिस्थापित करके सरल कर लिया जाता है, उसी प्रकार अपेक्षाकृत अधिक जटिल नेटवर्कों में स्टार को डेल्टा में या डेल्टा को स्टार में बदल देने से सरल करने की सुविधा मिल जाती है। यह नीचे के उदाहरण से स्पष्ट हो जाएगा-
+
+इसके उल्टा Δ-Y का उपयोग करते हुए, एक नया नोड जोडकर भी निम्नलिखित प्रकार से सरलीकरण कर सकते हैं-
+
+
+
+
+en;Y-delta transformation
+
+[[श्रेणी:वैद्युत प्रौद्l

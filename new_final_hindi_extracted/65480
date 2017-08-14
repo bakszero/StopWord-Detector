@@ -1,0 +1,12 @@
+ध्रुवीय निर्देशांक पद्धति
+
+गणित में ध्रुवीय निर्देशांक पद्धति (polar coordinate system) द्विविमीय-निर्देशांक पद्धति है जिसमें किसी बिन्दु के निर्देशांक उस बिन्दु की किसी सन्दर्भ बिन्दु से दूरी एवं सन्दर्भ दिशा से बनने वाले कोण द्वारा दी जाती है।
+
+The polar coordinates "r" and "ϕ" can be converted to the Cartesian coordinates "x" and "y" by using the trigonometric functions sine and cosine:
+
+The Cartesian coordinates "x" and "y" can be converted to polar coordinates "r" and "ϕ" with "r" ≥ 0 and "ϕ" in the interval (−, ] by:
+
+where atan2 is a common variation on the arctangent function defined as
+
+The value of "ϕ" above is the principal value of the complex number function arg applied to "x"+"iy". An angle in the range [0, 2) may be obtained by adding 2 to the value in case it is negative.
+

@@ -1,0 +1,47 @@
+सदिश कैलकुलस की सर्वसमिकाएँ
+
+सदिश कैलकुलस की कुछ प्रमुख सर्वसमिकाएँ नीचे दी गयी हैं।
+
+किसी सदिश क्षेत्र formula_1 के लिये, डाइवर्जेंस प्रायः निम्नलिखित प्रकार से लिखा जाता है:
+
+
+किसी टेंसर formula_3 के लिये, डाइवर्जेंस प्रायः निम्नलिखित प्रकार से लिखा जाता है:
+
+
+किसी सदिश क्षेत्र formula_1 के लिये, कर्ल इस प्रजकार लिखा जाता है:
+
+
+किसी सदिश क्षेत्र formula_1 के लिये, ग्रेडिएन्ट प्रायः इस प्रकार लिखा जाता है:
+
+
+किसी अदिश क्षेत्र, formula_9 के लिये, ग्रेडिएन्ट इस प्रकार लिखा जाता है:
+
+
+The curl of the gradient of "any" scalar field formula_11 is always zero:
+
+One way to establish this identity (and most of the others listed in this article) is to use three-dimensional Cartesian coordinates. According to the article on "curl",
+
+where the right hand side is a determinant, and i, j, k are unit vectors pointing in the positive axes directions, and "∂" = "∂ / ∂ x " "etc". For example, the "x"-component of the above equation is:
+
+where the left-hand side evaluates as zero assuming the order of differentiation is immaterial.
+
+The divergence of the curl of "any" vector field A is always zero:
+
+The Laplacian of a scalar field is defined as the divergence of the gradient:
+Note that the result is a scalar quantity.
+
+In simpler form, using Feynman subscript notation:
+
+where the notation ∇ means the subscripted gradient operates on only the factor A.
+
+A less general but similar idea is used in "geometric algebra" where the so-called Hestenes "overdot notation" is employed. The above identity is then expressed as:
+
+where overdots define the scope of the vector derivative. In the first term it is only the first (dotted) factor that is differentiated, while the second is held constant. Likewise, in the second term it is the second (dotted) factor that is differentiated, and the first is held constant.
+
+As a special case, when A = B:
+
+where the Feynman subscript notation ∇ means the subscripted gradient operates on only the factor B.
+In overdot notation, explained above:
+
+The gradient of the product of two scalar fields formula_9 and formula_31 follows the same form as the Product rule in single variable Calculus. 
+

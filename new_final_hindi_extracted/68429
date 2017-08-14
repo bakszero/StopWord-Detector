@@ -1,0 +1,37 @@
+कटपयादि संख्या
+
+कटपयादि संख्या कर्नाटक संगीत में मेलापक राग की संख्या ज्ञात करने के काम आती है। इसके लिये राग के नाम के प्रथम दो सिलैबल्स के संगत कटपयादि संख्या निकालनी पड़ती है।
+
+नीचे की सारणी में देवनागरी वर्णों के संगत कटपयादि संख्याएं दी गयी हैं।
+To use the sankhya, take the first two syllables of the name of the raga, and locate the corresponding columns on the table. Then take the two numbers and reverse them to get the mela number. This is according to the following sutra: अंकानां वामतॊ गतिः (read numbers in the leftward (वामतः) direction)।
+
+कटपयादि संख्या is a simplification of Āryabhaa's Sanskrit numerals, due probably to Haridatta from Kerala, c. 620-700.
+
+The Swaras 'Sa' and 'Pa' are fixed, and here is how to get the other swaras from the melakarta number.
+
+
+
+राग धीरशंकरभरणम
+
+The katapayadi scheme associates dhaformula_19 and raformula_12, hence the raga's melakarta number is 29 (92 reversed)।
+
+Now 29 formula_3 36, hence Dheerasankarabharanam has Ma1. Divide 28 (1 less than 29)by 6, the quotient is 4 and the remainder 4. Therefore, this raga has Ri2, Ga3 (quotient is 4) and Da2, Ni3 (remainder is 4)।
+
+This raga's scale is "Sa Ri2 Ga3 Ma1 Pa Da2 Ni3 SA".
+
+राग मेचकल्याणी
+
+From the coding scheme Ma formula_1 5, Cha formula_1 6. Hence the raga's melakarta number is 65 (56 reversed)।
+
+65 is greater than 36. So MechaKalyani has Ma2.
+
+Since the raga's number is greater than 36 subtract 36 from it. 65-36=29.
+
+So MechaKalyani has the notes "Sa Ri2 Ga3 Ma2 Pa Da2 Ni3 SA".
+
+अपवाद: सिंहेन्द्रमाध्ययम
+
+You can see that, as per the above calculation we should get Sa formula_1 7, Ha formula_1 8 giving the number 87 instead of 57 for Simhendramadhyamam. This should be ideally Sa formula_1 7, Ma formula_1 5 giving the number 57. So it is believed that the name should be written as Sihmendramadhymam (As in the case of Brahmana in Sanskrit)।
+
+You can play with the other ragas in the Melakarta Table.
+

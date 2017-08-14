@@ -1,0 +1,16 @@
+मेक फ़ाइल
+
+Makefile (मेकफ़ाइल) किसी प्रोग्रामिंग कोड को एकत्र करने, लाइब्रेरी से link करने और चलाने के लिए तैयार करने के काम आता है। इसका प्रयोग यूनिक्स सिस्टम से शुरु हुआ, लेकिन विंडोज़ प्लैटफ़ॉर्म में भी के ज़रिये इसको चलाया जाता है। 
+
+इसकी सबसे अधिक जरूरत तब पड़ती है जब आपके काम में कई सारे स्रोत फाइल, libraries और heder files हों। इसके लिए बारंबार build (~compile) करने और थोड़े बहुत बदलाव करने के बाद परीक्षण करने के लिए कम-से-कम समय में test करने में इसका प्रयोग बहुत लाज़िमी हो जाता है। 
+एक प्रारूपी नमूना। इससे "edit" नाम का executable, एक C source और 2 header files से बनाया जाएगा.
+
+edit : main.o kbd.o command.o display.o #यहाँ edit, target है और *.o फाइल्स dependencies
+main.o : main.c defs.h #यहाँ main.o, target है और main.c, defs.h फाइल्स dependencies
+kbd.o : kbd.c defs.h command.h
+command.o : command.c defs.h command.h
+display.o : display.c defs.h
+
+clean :
+
+इस "edit" को चलाने के लिए, टर्मिनल पर type करें : make
